@@ -49,8 +49,8 @@ inline in the source code.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Sirrah91/solar-contour-tracking.git
-cd solar-contour-tracking
+git clone https://github.com/Sirrah91/solar-feature-contour-tracking.git
+cd solar-feature-contour-tracking
 ```
 
 ---
