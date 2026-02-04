@@ -34,7 +34,7 @@ def plot_image_with_contours(
 
     plot_contour_groups(ax, contour_groups=contour_groups)
 
-    ax.set_xlim(0, image.shape[1])
-    ax.set_ylim(0, image.shape[0])
+    ax.set_xlim(im.get_extent()[:2])
+    ax.set_ylim(im.get_extent()[2:])
 
     return im
