@@ -46,8 +46,9 @@ def render_scene(
     if annotations is not None:
         annotations(ax, contour_groups)
 
-    ax.set_xlim(0, image.shape[1])
-    ax.set_ylim(0, image.shape[0])
+    if im is not None:
+        ax.set_xlim(im.get_extent()[:2])
+        ax.set_ylim(im.get_extent()[2:])
 
     if return_image:
         return im
