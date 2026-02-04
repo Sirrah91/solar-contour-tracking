@@ -32,7 +32,7 @@ expert users working with solar image data.
 src/
 ├─ geometry/     # contour extraction and geometry utilities
 ├─ tracks/       # tracked feature containers and temporal linking
-├─ pipelines/    # tracking, statistics, and plotting pipelines
+├─ pipelines/    # tracking and statistics pipelines
 ├─ plotting/     # plotting helpers and animations
 ├─ stats/        # statistical analysis and phase segmentation
 ├─ io/           # FITS and data I/O
