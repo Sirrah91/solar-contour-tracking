@@ -1,10 +1,13 @@
 from os import path
 
-PROJECT_DIR = "/nfshome/david/Contours"
-BACKUP_DIR = "/nfsscratch/david/backup/Contours/"
+PROJECT_DIR = FULL PATH TO PROJECT
+BACKUP_DIR =  FULL PATH TO BACKUP
 
-PATH_CONTOURS = "/nfsscratch/david/Contours/contours"
-PATH_CONTOURS_PHASES = "/nfsscratch/david/Contours/contours_phases"
+PATH_CONTOURS = WHERE TO SAVE CONTOURS
+PATH_CONTOURS_PHASES = WHERE TO SAVE PHASE-SEPARATED PRODUCTS
+
+# Slopes defining the sunspot evolution. Good to precompute.
+SLOPES_FILE = path.join(PATH_CONTOURS_PHASES, "all_slopes.parquet")
 
 SUBDIRS = {
     "scr": "scr",
@@ -21,6 +24,3 @@ PATH_GRAPHIC_OUTPUT = path.join(PROJECT_DIR, "graphic_output")
 PATH_FIGURES = path.join(PATH_GRAPHIC_OUTPUT, "figures")
 PATH_VIDEOS = path.join(PATH_GRAPHIC_OUTPUT, "videos")
 PATH_INTERACTIVE = path.join(PATH_GRAPHIC_OUTPUT, "interactive")
-
-# Slopes defining the sunspot evolution. Good to precompute.
-SLOPES_FILE = path.join(PATH_CONTOURS_PHASES, "all_slopes.parquet")
