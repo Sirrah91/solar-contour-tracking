@@ -22,7 +22,7 @@ expert users working with solar image data.
 - Modular plotting pipelines:
   - snapshot figures,
   - PDFs,
-  - animations
+  - animations.
 
 ---
 
